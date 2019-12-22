@@ -10,7 +10,4 @@ node {
         stage('Build'){
                 sh "npm run build"
         }
-        stage('Deploy'){
-                sh "npm run start"
-        }
 }
