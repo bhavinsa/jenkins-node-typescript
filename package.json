@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "mocha dist/**/*.spec.js",
-    "start": "pm2 restart dist/index.js",
+    "start": "pm2 restart ./dist/index.js",
     "dev": "tsc --watch & nodemon dist/index.js",
     "test": "tsc && mocha dist/**/*.spec.js",
     "lint": "eslint src --ext ts",
